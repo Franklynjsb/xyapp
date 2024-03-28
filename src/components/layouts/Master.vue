@@ -41,7 +41,7 @@ export default {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
+    color: #502c50;
     font-size: 24px;
     height: 100vh;
   }
@@ -57,7 +57,7 @@ export default {
     padding: 15px 0;
     margin: 0;
     justify-content: flex-end;
-    background: #F5F8FA;
+    background: #535172;
     border-bottom: 1px solid lightgrey;
     margin-bottom: 24px;
   }
@@ -71,8 +71,6 @@ export default {
     text-decoration: none;
     text-transform: uppercase;
   }
-
-  // Auth Pages
 
   label {
     display: block;
@@ -110,17 +108,17 @@ export default {
     padding: 14px 12px;
     font-size: 18px;
     font-weight: bold;
-    background: #60BD4F;
+    background: #a34fbd;
     color: white;
     border-radius: 3px;
     cursor: pointer;
 
     &:hover {
-      background: darken(#60BD4F, 10%);
+      background: darken(#4f5abd, 10%);
     }
 
     &:disabled {
-      background: lighten(#60BD4F, 25%);
+      background: lighten(#9a4fbd, 25%);
       cursor: not-allowed;
     }
 
@@ -137,7 +135,7 @@ export default {
 
   .success-message {
     background-color: #dff0d8;
-    color: #3c763d;
+    color: #acff8b;
     margin-bottom: 12px;
     font-size: 16px;
     padding: 10px 16px;
@@ -157,8 +155,6 @@ export default {
     animation-duration: 0.2s;
   }
 
-  // CSS Spinner
-
   .lds-ring-container {
     position: absolute;
     right: 50%;
@@ -176,7 +172,6 @@ export default {
     position: absolute;
     width: 25px;
     height: 25px;
-    // margin: 6px;
     border: 3px solid #fff;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;

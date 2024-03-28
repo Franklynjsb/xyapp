@@ -128,7 +128,7 @@ export default {
   margin-left: 12px;
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc; //override defaults
+  border: 1px solid #f3d1f1;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
 
   &:focus {
@@ -146,7 +146,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   font-size: 16px;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid rgb(218, 185, 255);
   padding-top: 14px;
   margin-bottom: 14px;
 }
@@ -157,12 +157,12 @@ export default {
 
 button {
   font-size: 14px;
-  background-color: white;
+  background-color: rgb(222, 255, 222);
   appearance: none;
   padding: 4px;
 
   &:hover {
-    background: lightgreen;
+    background: rgb(255, 141, 240);
   }
 
   &:focus {
@@ -171,10 +171,9 @@ button {
 }
 
 .active {
-  background: lightgreen;
+  background: rgb(173, 255, 106);
 }
 
-// CSS Transitions
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s;
