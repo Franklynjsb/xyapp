@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Landing page landing page
-    </div>
+  <div class="page-wrapper flex-center">
+    Landing Page content here
+  </div>
 </template>
