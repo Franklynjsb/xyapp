@@ -19,7 +19,7 @@
         <todo-clear-completed></todo-clear-completed>
         </transition>
       </div>
-    </div> <!-- end extra-container -->
+    </div>
   </div>
 </template>
 
@@ -44,6 +44,9 @@ export default {
       newTodo: '',
       idForTodo: 3,
     }
+  },
+  created() {
+    this.$store.dispatch('retrieveTodos')
   },
   computed: {
     anyRemaining() {
